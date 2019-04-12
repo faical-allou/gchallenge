@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "C internal console",
+            "type": "cppdbg",
+            "request": "launch",
+            "miDebuggerPath": "C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gdb.exe",
+            "targetArchitecture": "x64",
+            "program": "${workspaceRoot}/practice/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": []
+        },
+        {
+            "name": "C external console",
+            "type": "cppdbg",
+            "request": "launch",
+            "miDebuggerPath": "C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gdb.exe",
+            "targetArchitecture": "x64",
+            "program": "${workspaceRoot}/practice/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+        }
+    ]
+}
